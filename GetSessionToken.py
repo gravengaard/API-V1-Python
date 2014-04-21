@@ -9,11 +9,11 @@ import hashlib
 baseURLSigninKey = CoinMktAPI.URL + "/session/signinkey" ;
 baseURLSessionToken = CoinMktAPI.URL + "/session/new" ;
   
-sampleApiKey = '7B4B9E13366C41799A3B8C85DA9852DF';
-sampleApiSecret = "907213ED44E54596B96192A7"
+sampleApiKey = '8B4B9E13366C41799A3B8C85DA9852DF';
+sampleApiSecret = "807213ED44E54596B96192A7"
 sampleTradeLevel = '0';
-sampleSecondaryKey = "158be92709e545ba9a89d128f950e577";
-sampleApiPIN = "333333";
+sampleSecondaryKey = "858be92709e545ba9a89d128f950e577";
+sampleApiPIN = "88888";
 
 URLSignin = "%s/%s" % (baseURLSigninKey, sampleApiKey)
 
