@@ -25,6 +25,7 @@ encryptedString = base64.b64decode(data['Key'])
 cipher = DES3.new( sampleApiSecret, DES3.MODE_ECB )
 decryptedString = cipher.decrypt(encryptedString)
 
+# this line cannot work because hashlib.sha512(sampleAPIPIN) returns an object not a string
 hashvalue = hashlib.sha512("%s%s%s" % (decryptedString,sampleSecondaryKey, hashlib.sha512(sampleApiPIN)))
 hex_dig = hashvalue.hexdigest()
 
